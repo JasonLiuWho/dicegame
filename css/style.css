@@ -1,0 +1,49 @@
+* {box-sizing: border-box;}
+
+.dice {
+    margin: 30px 0;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.die {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+    border-radius: 5px;
+}
+
+.text-div {
+    margin-top: 30px 0;
+    font-size: 26px;
+}
+
+.die-display {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    line-height: 2;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: lime;
+}
+
+.black {
+    color: black;
+}
+
+.one {
+    display: block;
+    margin: 20 auto; 
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+}

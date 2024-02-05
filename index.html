@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+<h1 class="text-capitalize text-center">dice game</h1>
+<main class="main" id="main">
+    <div class="container">
+        <section class="game-section" id="gameSection">
+            <button class="btn btn-primary" id="gameStartBtn">start game</button>
+            <div class="dice">
+                <div class="die" id="die1">
+                    <span class="die-display" id="dieDisplay1"></span>
+                </div>
+                <div class="die" id="die2">
+                    <span class="die-display" id="dieDisplay2"></span>
+                </div>
+            </div>
+            <div class="text-div" id="textDiv">
+                <p id="rollTotalDisplay"></p>
+                <p id="message"></p>
+            </div>
+            <button class="btn btn-primary" id="rollBtn" disabled>roll dice</button>
+            <p>Roll Count: <span class="roll-count" id="rollCountDisplay"></span></p>
+            <p>Point: <span class="point" id="pointDisplay"></span></p>
+            <p class="stats">Total Wins:
+                <span class="totalWins" id="winDisplay"></span> Total Losses:
+                <span class="totalLosses" id="lossDisplay"></span>
+            </p>
+            <p class="streak-stats">Current win streak: 
+                <span class="win-streak" id="winStreakDisplay"></span>
+                Current lose streak:
+                <span class="lose-streak" id="loseStreakDisplay"></span>
+            </p>
+        </section> 
+    </div>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
